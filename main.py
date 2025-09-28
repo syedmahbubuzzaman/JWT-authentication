@@ -8,3 +8,4 @@ app.include_router(auth.router, prefix="/auth", tags=["auth"])
 @app.get("/")
 def root():
     return {"msg": "JWT Authentication API running"}
+#my new line
